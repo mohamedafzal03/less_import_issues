@@ -1,0 +1,22 @@
+@new1:themes;
+@pd1:padding;
+ .new{
+   font-color:red;
+}
+ @dada:dada;  
+@import (multiple)"foo.less"; 
+@import (multiple)"foo.less"; 
+
+@pd :10px;
+@width : 23cm;
+.newmix(){
+   @color: green;   
+}
+@height:1.1cm + @width; 
+@color : yellow;
+container{
+   @{pd1}:@pd;
+   color:blue;
+   background-image: url(/@{new1}/retina2x.png);
+   .newmix();
+}

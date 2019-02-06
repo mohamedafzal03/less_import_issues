@@ -1,0 +1,26 @@
+.new {
+  font-color: red;
+}
+.var {
+  a: red;
+}
+.imp {
+  background-image: url(/@{new1}/retina2x.png);
+}
+.imp .var {
+  a: red;
+}
+.var {
+  a: red;
+}
+.imp {
+  background-image: url(/@{new1}/retina2x.png);
+}
+.imp .var {
+  a: red;
+}
+container {
+  padding: 10px;
+  color: blue;
+  background-image: url(/@{new1}/retina2x.png);
+}
